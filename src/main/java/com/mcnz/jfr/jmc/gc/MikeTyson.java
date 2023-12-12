@@ -25,7 +25,7 @@ import javax.swing.JOptionPane;
 public final class MikeTyson implements Runnable {
 	
 	private final Map<Long, SnoopLong> map = new HashMap<>();
-
+	system.out.println("Life is not Haahaaheehee");
 	public MikeTyson() {
 		for (long i = 0; i < 10_000; i++) {
 			map.put(i, new SnoopLong(i));
